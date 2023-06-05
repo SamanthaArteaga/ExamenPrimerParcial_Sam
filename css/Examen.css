@@ -1,0 +1,47 @@
+body {
+    background-color: #d2b3db;
+    justify-content: center;
+    height: 75vh;
+    
+  }
+  
+h1{
+    text-align: center;
+    color: #201976;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+form {
+    width: 400px;
+    background-color: #e5c8e9;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ad1cc0;
+    color: #f4f2f5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
